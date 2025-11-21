@@ -21,7 +21,7 @@ export default function LandingPage() {
       <nav className="sticky top-0 z-50 w-full bg-white/80 dark:bg-slate-900/80 backdrop-blur-md border-b border-slate-200 dark:border-slate-700">
         <div className="container mx-auto px-4 h-16 flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <div className="p-1.5 rounded-lg bg-linear-to-br from-blue-700 via-purple-500 to-purple-600">
+            <div className="p-1.5 rounded-lg bg-linear-to-br from-yellow-600 via-orange-400 to-orange-500">
               <Image
                 src="/logo.png"
                 alt="LEIA Logo"
@@ -38,19 +38,19 @@ export default function LandingPage() {
           <div className="hidden md:flex items-center gap-8 text-sm font-medium text-slate-600 dark:text-slate-300">
             <Link
               href="#features"
-              className="hover:text-purple-600 transition-colors"
+              className="hover:text-orange-600 transition-colors"
             >
               Funcionalidades
             </Link>
             <Link
               href="#security"
-              className="hover:text-purple-600 transition-colors"
+              className="hover:text-orange-600 transition-colors"
             >
               Seguridad
             </Link>
             <Link
               href="#pricing"
-              className="hover:text-purple-600 transition-colors"
+              className="hover:text-orange-600 transition-colors"
             >
               Precios
             </Link>
@@ -60,13 +60,13 @@ export default function LandingPage() {
             <ThemeToggle />
             <Link
               href="#"
-              className="hidden md:block text-sm font-medium text-slate-600 dark:text-slate-300 hover:text-purple-600"
+              className="hidden md:block text-sm font-medium text-slate-600 dark:text-slate-300 hover:text-orange-600"
             >
               Iniciar Sesión
             </Link>
             <Link
               href="#"
-              className="bg-linear-to-br from-blue-700 via-purple-500 to-purple-600 dark:shadow-lg dark:shadow-purple-900/25 hover:from-blue-800 hover:via-purple-600 hover:to-purple-700 text-white px-5 py-2 rounded-full text-sm font-medium transition-all shadow-lg shadow-purple-600/20"
+              className="bg-linear-to-br from-yellow-600 via-orange-400 to-orange-500 dark:shadow-lg dark:shadow-orange-900/25 hover:from-yellow-700 hover:via-orange-500 hover:to-orange-600 text-white px-5 py-2 rounded-full text-sm font-medium transition-all shadow-lg shadow-orange-600/20"
             >
               Prueba Gratis
             </Link>
@@ -78,17 +78,9 @@ export default function LandingPage() {
       <section className="relative pt-20 pb-32 overflow-hidden">
         <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-5"></div>
         <div className="container mx-auto px-4 text-center relative z-10">
-          <div className="inline-flex items-center gap-2 bg-linear-to-br from-blue-50 via-purple-100 to-purple-50 border border-blue-100 text-blue-700 dark:text-purple-300 px-4 py-1.5 rounded-full text-sm font-medium mb-8">
-            <span className="relative flex h-2 w-2">
-              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-linear-to-br from-blue-400 via-purple-300 to-purple-400 opacity-75"></span>
-              <span className="relative inline-flex rounded-full h-2 w-2 bg-linear-to-br from-blue-500 via-purple-400 to-purple-500"></span>
-            </span>
-            Actualizado con las últimas Actas de la CNAT
-          </div>
-
           <h1 className="text-5xl md:text-6xl font-extrabold text-slate-900 dark:text-slate-100 mb-6 tracking-tight leading-tight max-w-4xl mx-auto">
             La Inteligencia Artificial para el <br />
-            <span className="text-transparent bg-clip-text bg-linear-to-br from-blue-700 via-purple-500 to-purple-600">
+            <span className="text-transparent bg-clip-text bg-linear-to-br from-yellow-600 via-orange-400 to-orange-500">
               Derecho Laboral Argentino
             </span>
           </h1>
@@ -100,7 +92,7 @@ export default function LandingPage() {
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <button className="w-full sm:w-auto flex items-center justify-center gap-2 bg-linear-to-br from-blue-700 via-purple-500 to-purple-600 hover:from-blue-800 hover:via-purple-600 hover:to-purple-700 text-white px-8 py-4 rounded-xl text-lg font-bold transition-all shadow-xl shadow-purple-600/20">
+            <button className="w-full sm:w-auto flex items-center justify-center gap-2 bg-linear-to-br from-yellow-600 via-orange-400 to-orange-500 hover:from-yellow-700 hover:via-orange-500 hover:to-orange-600 text-white px-8 py-4 rounded-xl text-lg font-bold transition-all shadow-xl shadow-orange-600/20">
               Comenzar Ahora <ArrowRight className="h-5 w-5" />
             </button>
             <button className="w-full sm:w-auto flex items-center justify-center gap-2 bg-white dark:bg-slate-800 border border-slate-300 dark:border-slate-700 hover:bg-slate-50 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-200 px-8 py-4 rounded-xl text-lg font-bold transition-all">
@@ -125,13 +117,13 @@ export default function LandingPage() {
                     ...intimo plazo 48hs aclare situación laboral, bajo
                     apercibimiento de considerarme despedido...
                   </p>
-                  <p className="mt-2 text-purple-600 dark:text-purple-300 font-bold">
+                  <p className="mt-2 text-orange-600 dark:text-orange-300 font-bold">
                     TCL Nro: 8392102
                   </p>
                 </div>
               </div>
               <div className="space-y-4">
-                <div className="text-xs font-bold text-purple-600 dark:text-purple-300 uppercase tracking-wider">
+                <div className="text-xs font-bold text-orange-600 dark:text-orange-300 uppercase tracking-wider">
                   Análisis IA
                 </div>
                 <div className="space-y-3">
@@ -181,9 +173,9 @@ export default function LandingPage() {
 
           <div className="grid md:grid-cols-3 gap-8">
             {/* Feature 1 */}
-            <div className="bg-slate-50 dark:bg-slate-800 p-8 rounded-2xl border border-slate-100 dark:border-slate-700 hover:border-blue-200 transition-colors group">
-              <div className="bg-linear-to-br from-blue-100 via-purple-200 to-purple-100 w-14 h-14 rounded-xl flex items-center justify-center mb-6 group-hover:bg-linear-to-br group-hover:from-blue-600 group-hover:via-purple-500 group-hover:to-purple-600 transition-colors">
-                <FileText className="h-7 w-7 text-purple-600 group-hover:text-white transition-colors" />
+            <div className="bg-slate-50 dark:bg-slate-800 p-8 rounded-2xl border border-slate-100 dark:border-slate-700 hover:border-yellow-200 transition-colors group">
+              <div className="bg-linear-to-br from-yellow-100 via-orange-200 to-orange-100 w-14 h-14 rounded-xl flex items-center justify-center mb-6 group-hover:bg-linear-to-br group-hover:from-yellow-600 group-hover:via-orange-500 group-hover:to-orange-600 transition-colors">
+                <FileText className="h-7 w-7 text-orange-500 group-hover:text-white transition-colors" />
               </div>
               <h3 className="text-xl font-bold text-slate-900 dark:text-slate-100 mb-3">
                 Análisis de Telegramas
@@ -196,9 +188,9 @@ export default function LandingPage() {
             </div>
 
             {/* Feature 2 */}
-            <div className="bg-slate-50 dark:bg-slate-800 p-8 rounded-2xl border border-slate-100 dark:border-slate-700 hover:border-blue-200 transition-colors group">
-              <div className="bg-linear-to-br from-blue-100 via-purple-200 to-purple-100 w-14 h-14 rounded-xl flex items-center justify-center mb-6 group-hover:bg-linear-to-br group-hover:from-blue-600 group-hover:via-purple-500 group-hover:to-purple-600 transition-colors">
-                <Calculator className="h-7 w-7 text-purple-600 group-hover:text-white transition-colors" />
+            <div className="bg-slate-50 dark:bg-slate-800 p-8 rounded-2xl border border-slate-100 dark:border-slate-700 hover:border-yellow-200 transition-colors group">
+              <div className="bg-linear-to-br from-yellow-100 via-orange-200 to-orange-100 w-14 h-14 rounded-xl flex items-center justify-center mb-6 group-hover:bg-linear-to-br group-hover:from-yellow-600 group-hover:via-orange-500 group-hover:to-orange-600 transition-colors">
+                <Calculator className="h-7 w-7 text-orange-500 group-hover:text-white transition-colors" />
               </div>
               <h3 className="text-xl font-bold text-slate-900 dark:text-slate-100 mb-3">
                 Liquidaciones Automáticas
@@ -211,9 +203,9 @@ export default function LandingPage() {
             </div>
 
             {/* Feature 3 */}
-            <div className="bg-slate-50 dark:bg-slate-800 p-8 rounded-2xl border border-slate-100 dark:border-slate-700 hover:border-blue-200 transition-colors group">
-              <div className="bg-linear-to-br from-blue-100 via-purple-200 to-purple-100 w-14 h-14 rounded-xl flex items-center justify-center mb-6 group-hover:bg-linear-to-br group-hover:from-blue-600 group-hover:via-purple-500 group-hover:to-purple-600 transition-colors">
-                <MessageSquareText className="h-7 w-7 text-purple-600 group-hover:text-white transition-colors" />
+            <div className="bg-slate-50 dark:bg-slate-800 p-8 rounded-2xl border border-slate-100 dark:border-slate-700 hover:border-yellow-200 transition-colors group">
+              <div className="bg-linear-to-br from-yellow-100 via-orange-200 to-orange-100 w-14 h-14 rounded-xl flex items-center justify-center mb-6 group-hover:bg-linear-to-br group-hover:from-yellow-600 group-hover:via-orange-500 group-hover:to-orange-600 transition-colors">
+                <MessageSquareText className="h-7 w-7 text-orange-500 group-hover:text-white transition-colors" />
               </div>
               <h3 className="text-xl font-bold text-slate-900 dark:text-slate-100 mb-3">
                 Redacción Jurídica
@@ -302,10 +294,10 @@ export default function LandingPage() {
       {/* --- TRUST / SECURITY --- */}
       <section
         id="security"
-        className="py-20 bg-linear-to-br from-blue-50 via-purple-100 to-purple-50"
+        className="py-20 bg-linear-to-br from-yellow-50 via-orange-100 to-orange-50"
       >
         <div className="container mx-auto px-4 text-center">
-          <ShieldCheck className="h-12 w-12 text-purple-700 mx-auto mb-4" />
+          <ShieldCheck className="h-12 w-12 text-orange-600 mx-auto mb-4" />
           <h2 className="text-3xl font-bold text-slate-900 dark:text-slate-100 mb-4">
             Seguridad y Privacidad Primero
           </h2>
@@ -332,25 +324,25 @@ export default function LandingPage() {
       {/* --- CTA SECTION --- */}
       <section className="py-24 bg-white dark:bg-slate-900">
         <div className="container mx-auto px-4">
-          <div className="bg-linear-to-br from-blue-700 via-purple-500 to-purple-600 rounded-3xl p-12 md:p-20 text-center md:text-left relative overflow-hidden">
+          <div className="bg-linear-to-br from-yellow-600 via-orange-400 to-orange-500 rounded-3xl p-12 md:p-20 text-center md:text-left relative overflow-hidden">
             {/* Abstract decorative circles */}
-            <div className="absolute top-0 right-0 -mr-20 -mt-20 w-96 h-96 bg-linear-to-br from-blue-600 via-purple-400 to-purple-600 rounded-full opacity-50 blur-3xl"></div>
-            <div className="absolute bottom-0 left-0 -ml-20 -mb-20 w-72 h-72 bg-linear-to-br from-purple-600 via-blue-500 to-blue-600 rounded-full opacity-50 blur-3xl"></div>
+            <div className="absolute top-0 right-0 -mr-20 -mt-20 w-96 h-96 bg-linear-to-br from-yellow-600 via-orange-400 to-orange-600 rounded-full opacity-50 blur-3xl"></div>
+            <div className="absolute bottom-0 left-0 -ml-20 -mb-20 w-72 h-72 bg-linear-to-br from-orange-600 via-yellow-500 to-yellow-600 rounded-full opacity-50 blur-3xl"></div>
 
             <div className="relative z-10 grid md:grid-cols-2 gap-10 items-center">
               <div>
                 <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
                   ¿Listo para modernizar su práctica legal?
                 </h2>
-                <p className="text-purple-100 text-lg mb-8">
+                <p className="text-orange-100 text-lg mb-8">
                   Únase a más de 500 abogados en Argentina que ya usan
                   Laboral.AI para ganar casos más rápido.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4">
-                  <button className="bg-white dark:bg-slate-800 text-purple-700 dark:text-purple-300 px-8 py-4 rounded-xl font-bold hover:bg-purple-50 dark:hover:bg-slate-700 transition-colors shadow-lg">
+                  <button className="bg-white dark:bg-slate-800 text-orange-600 dark:text-orange-300 px-8 py-4 rounded-xl font-bold hover:bg-orange-50 dark:hover:bg-slate-700 transition-colors shadow-lg">
                     Empezar Prueba Gratis
                   </button>
-                  <button className="bg-linear-to-br from-purple-800 via-blue-700 to-blue-800 text-white border border-purple-600 px-8 py-4 rounded-xl font-bold hover:bg-purple-900 transition-colors">
+                  <button className="bg-linear-to-br from-orange-800 via-yellow-700 to-yellow-800 text-white border border-orange-600 px-8 py-4 rounded-xl font-bold hover:bg-orange-900 transition-colors">
                     Agendar Demo
                   </button>
                 </div>
@@ -362,7 +354,7 @@ export default function LandingPage() {
                   <p className="text-green-300">{`> Fallo plenario "Tulosai" detectado.`}</p>
                   <p>{`> Calculando indemnización tope...`}</p>
                   <p className="text-green-300">{`> Liquidación lista. Generando PDF...`}</p>
-                  <div className="mt-4 h-2 w-full bg-linear-to-br from-blue-900/50 via-purple-700/50 to-purple-900/50 rounded-full overflow-hidden">
+                  <div className="mt-4 h-2 w-full bg-linear-to-br from-yellow-900/50 via-orange-700/50 to-orange-900/50 rounded-full overflow-hidden">
                     <div className="h-full bg-green-400 w-3/4"></div>
                   </div>
                 </div>
@@ -378,7 +370,7 @@ export default function LandingPage() {
           <div className="grid md:grid-cols-4 gap-8 mb-12">
             <div>
               <div className="flex items-center gap-2 mb-4">
-                <div className="p-1 rounded-md bg-linear-to-br from-blue-700 via-purple-500 to-purple-600">
+                <div className="p-1 rounded-md bg-linear-to-br from-yellow-600 via-orange-400 to-orange-500">
                   <Scale className="h-4 w-4 text-white" />
                 </div>
                 <span className="text-lg font-bold text-slate-900 dark:text-slate-100">
@@ -395,22 +387,22 @@ export default function LandingPage() {
               <h4 className="font-bold text-slate-900 mb-4">Producto</h4>
               <ul className="space-y-2 text-sm text-slate-600 dark:text-slate-300">
                 <li>
-                  <a href="#" className="hover:text-purple-600">
+                  <a href="#" className="hover:text-orange-600">
                     Calculadora LCT
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-purple-600">
+                  <a href="#" className="hover:text-orange-600">
                     Análisis de Telegramas
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-purple-600">
+                  <a href="#" className="hover:text-orange-600">
                     Jurisprudencia
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-purple-600">
+                  <a href="#" className="hover:text-orange-600">
                     Precios
                   </a>
                 </li>
@@ -421,17 +413,17 @@ export default function LandingPage() {
               <h4 className="font-bold text-slate-900 mb-4">Recursos</h4>
               <ul className="space-y-2 text-sm text-slate-600 dark:text-slate-300">
                 <li>
-                  <a href="#" className="hover:text-purple-600">
+                  <a href="#" className="hover:text-orange-600">
                     Blog de Novedades
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-purple-600">
+                  <a href="#" className="hover:text-orange-600">
                     Guía de Multas Ley 24.013
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-purple-600">
+                  <a href="#" className="hover:text-orange-600">
                     Actas CNAT
                   </a>
                 </li>
@@ -442,17 +434,17 @@ export default function LandingPage() {
               <h4 className="font-bold text-slate-900 mb-4">Legal</h4>
               <ul className="space-y-2 text-sm text-slate-600 dark:text-slate-300">
                 <li>
-                  <a href="#" className="hover:text-purple-600">
+                  <a href="#" className="hover:text-orange-600">
                     Términos y Condiciones
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-purple-600">
+                  <a href="#" className="hover:text-orange-600">
                     Política de Privacidad
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-purple-600">
+                  <a href="#" className="hover:text-orange-600">
                     Contacto
                   </a>
                 </li>
