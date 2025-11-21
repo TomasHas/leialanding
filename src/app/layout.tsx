@@ -33,7 +33,7 @@ export default function RootLayout({
         {/* Inline theme-init script to avoid FOUC: sets dark class early */}
         <script
           dangerouslySetInnerHTML={{
-            __html: `(function(){try{var t=localStorage.getItem('theme');if(t==='dark'){document.documentElement.classList.add('dark');}else if(t==='light'){document.documentElement.classList.remove('dark');}else if(window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches){document.documentElement.classList.add('dark');}}catch(e){} })();`,
+            __html: `(function(){try{var t=localStorage.getItem('theme');if(t==='dark'){document.documentElement.classList.add('dark');}else if(t==='light'){document.documentElement.classList.remove('dark');}else{var prefers = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches; if(prefers){document.documentElement.classList.add('dark'); try{localStorage.setItem('theme','dark')}catch(e){} } else {document.documentElement.classList.remove('dark'); try{localStorage.setItem('theme','light')}catch(e){} }} }catch(e){} })();`,
           }}
         />
       </head>
