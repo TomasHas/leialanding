@@ -82,16 +82,17 @@ export default function LandingPage() {
         <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-5"></div>
         <div className="container mx-auto px-4 text-center relative z-10">
           <h1 className="text-5xl md:text-6xl font-extrabold text-slate-900 dark:text-slate-100 mb-6 tracking-tight leading-tight max-w-4xl mx-auto">
-            Innovacion. Certeza. Velocidad. <br />
+            Multiplica tu eficiencia 7x con Leia. <br />
             <span className="text-transparent bg-clip-text bg-linear-to-br from-yellow-600 via-orange-400 to-orange-500">
               Redactá escritos laborales con IA en minutos.
             </span>
           </h1>
 
           <p className="text-xl text-slate-600 dark:text-slate-300 mb-10 max-w-2xl mx-auto leading-relaxed">
-            Redactá escritos laborales en minutos. Nuestra IA procesa el
-            expediente y genera el escrito final según tus instrucciones,
-            liberando a tu equipo para decisiones estratégicas.
+            Nuestra IA procesa el expediente y genera el escrito final según sus
+            instrucciones y prefencias, liberando a tu equipo para decisiones
+            estratégicas.Satya Nadella. La IA no es solo una herramienta para la
+            automatización; es un facilitador para la aumentación.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
