@@ -82,9 +82,9 @@ export default function LandingPage() {
         <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-5"></div>
         <div className="container mx-auto px-4 text-center relative z-10">
           <h1 className="text-5xl md:text-6xl font-extrabold text-slate-900 dark:text-slate-100 mb-6 tracking-tight leading-tight max-w-4xl mx-auto">
-            Multiplica tu eficiencia 7x con Leia. <br />
+            Escalá tu trabajo 10X. <br />
             <span className="text-transparent bg-clip-text bg-linear-to-br from-yellow-600 via-orange-400 to-orange-500">
-              Redactá escritos laborales con IA en minutos.
+              Redactá escritos laborales en minutos.
             </span>
           </h1>
 
@@ -166,20 +166,13 @@ export default function LandingPage() {
       <section id="features" className="py-24 bg-white dark:bg-slate-900">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-slate-300 mb-4">
-              Diseñado para el Litigio Moderno
-            </h2>
-            <p className="text-lg text-slate-600 dark:text-slate-300 max-w-2xl mx-auto">
-              Redactamos escritos jurídicos precisos, eficientes y listos para
-              presentar. Transformamos horas de trabajo legal en minutos, sin
-              perder calidad ni rigor técnico. Optimizá tu tiempo, aumentá la
-              productividad de tu estudio y trabajá con la seguridad de que cada
-              documento está elaborado con criterio profesional y enfoque
-              jurídico acertado.
-            </p>
+            <blockquote className="mx-auto max-w-3xl text-xl md:text-2xl italic text-slate-800 dark:text-slate-100 bg-slate-50 dark:bg-slate-800 border-l-4 border-yellow-500 pl-6 py-4 rounded mb-6">
+              La IA no es solo una herramienta para la automatización; es un facilitador para la aumentación.
+              <footer className="mt-3 not-italic text-sm text-slate-600 dark:text-slate-300">— Satya Nadella, Chairman and CEO of Microsoft.</footer>
+            </blockquote>
           </div>
           <span className="text-transparent bg-clip-text bg-linear-to-br from-yellow-600 via-orange-400 to-orange-500 text-5xl font-extrabold ">
-            Como Funciona?
+            Como Funciona
           </span>
           <div className=" mt-8 grid md:grid-cols-3 gap-8">
             {/* Feature 1 */}
