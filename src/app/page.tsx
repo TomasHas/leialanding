@@ -167,8 +167,11 @@ export default function LandingPage() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <blockquote className="mx-auto max-w-3xl text-xl md:text-2xl italic text-slate-800 dark:text-slate-100 bg-slate-50 dark:bg-slate-800 border-l-4 border-yellow-500 pl-6 py-4 rounded mb-6">
-              La IA no es solo una herramienta para la automatización; es un facilitador para la aumentación.
-              <footer className="mt-3 not-italic text-sm text-slate-600 dark:text-slate-300">— Satya Nadella, Chairman and CEO of Microsoft.</footer>
+              La IA no es solo una herramienta para la automatización; es un
+              facilitador para la aumentación.
+              <footer className="mt-3 not-italic text-sm text-slate-600 dark:text-slate-300">
+                — Satya Nadella, Chairman and CEO of Microsoft.
+              </footer>
             </blockquote>
           </div>
           <span className="text-transparent bg-clip-text bg-linear-to-br from-yellow-600 via-orange-400 to-orange-500 text-5xl font-extrabold ">
@@ -363,6 +366,69 @@ export default function LandingPage() {
       </section>
 
       {/* --- FOOTER --- */}
+      {/* --- TEAM / ABOUT SECTION --- */}
+      <section id="team" className="py-20 bg-white dark:bg-slate-900">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl font-bold text-slate-900 dark:text-slate-100 text-center mb-4">
+            Nuestro Equipo
+          </h2>
+          <p className="text-center text-slate-600 dark:text-slate-300 max-w-2xl mx-auto mb-12">
+            Un equipo multidisciplinario que combina experiencia jurídica y
+            tecnología para construir herramientas que realmente ayuden a los
+            abogados a ser más eficaces.
+          </p>
+
+          <div className="grid md:grid-cols-3 gap-8">
+            <div className="p-6 bg-slate-50 dark:bg-slate-800 rounded-2xl border border-slate-100 dark:border-slate-700 text-center">
+              <div className="mx-auto h-20 w-20 rounded-full bg-yellow-600 text-white flex items-center justify-center text-xl font-bold mb-4">
+                MF
+              </div>
+              <h3 className="text-xl font-bold text-slate-900 dark:text-slate-100">María Fernández</h3>
+              <p className="text-sm text-slate-500 dark:text-slate-300 mb-3">CEO & Co-fundadora</p>
+              <p className="text-sm text-slate-600 dark:text-slate-300 mb-4">
+                Abogada laboralista con más de 12 años de experiencia en
+                litigio y producto legal. Lidera la visión del producto y las
+                alianzas estratégicas.
+              </p>
+              <a href="https://www.linkedin.com/in/maria-fernandez" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center px-3 py-2 rounded-md text-sm font-medium text-yellow-600 hover:underline">
+                Ver LinkedIn
+              </a>
+            </div>
+
+            <div className="p-6 bg-slate-50 dark:bg-slate-800 rounded-2xl border border-slate-100 dark:border-slate-700 text-center">
+              <div className="mx-auto h-20 w-20 rounded-full bg-orange-600 text-white flex items-center justify-center text-xl font-bold mb-4">
+                TH
+              </div>
+              <h3 className="text-xl font-bold text-slate-900 dark:text-slate-100">Tomás Herrera</h3>
+              <p className="text-sm text-slate-500 dark:text-slate-300 mb-3">CTO & Co-fundador</p>
+              <p className="text-sm text-slate-600 dark:text-slate-300 mb-4">
+                Ingeniero de software especializado en aprendizaje automático y
+                arquitectura de sistemas escalables. Encabeza la ingeniería de
+                modelos y la infraestructura.
+              </p>
+              <a href="https://www.linkedin.com/in/tomas-herrera" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center px-3 py-2 rounded-md text-sm font-medium text-orange-600 hover:underline">
+                Ver LinkedIn
+              </a>
+            </div>
+
+            <div className="p-6 bg-slate-50 dark:bg-slate-800 rounded-2xl border border-slate-100 dark:border-slate-700 text-center">
+              <div className="mx-auto h-20 w-20 rounded-full bg-yellow-700 text-white flex items-center justify-center text-xl font-bold mb-4">
+                LG
+              </div>
+              <h3 className="text-xl font-bold text-slate-900 dark:text-slate-100">Lucía Gómez</h3>
+              <p className="text-sm text-slate-500 dark:text-slate-300 mb-3">Head of Legal Research</p>
+              <p className="text-sm text-slate-600 dark:text-slate-300 mb-4">
+                Doctora en Derecho con amplia experiencia en jurisprudencia
+                laboral y análisis doctrinal. Supervisa la curación del
+                conocimiento legal del producto.
+              </p>
+              <a href="https://www.linkedin.com/in/lucia-gomez" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center px-3 py-2 rounded-md text-sm font-medium text-yellow-700 hover:underline">
+                Ver LinkedIn
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
       <footer className="bg-slate-50 dark:bg-slate-900 border-t border-slate-200 dark:border-slate-700 pt-16 pb-8">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-4 gap-8 mb-12">
