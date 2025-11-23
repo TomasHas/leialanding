@@ -177,49 +177,61 @@ export default function LandingPage() {
           <span className="text-transparent bg-clip-text bg-linear-to-br from-yellow-600 via-orange-400 to-orange-500 text-5xl font-extrabold ">
             Como Funciona
           </span>
-          <div className=" mt-8 grid md:grid-cols-3 gap-8">
-            {/* Feature 1 */}
-            <div className="bg-slate-50 dark:bg-slate-800 p-8 rounded-2xl border border-slate-100 dark:border-slate-700 hover:border-yellow-200 transition-colors group">
-              <div className="bg-linear-to-br from-yellow-100 via-orange-200 to-orange-100 w-14 h-14 rounded-xl flex items-center justify-center mb-6 group-hover:bg-linear-to-br group-hover:from-yellow-600 group-hover:via-orange-500 group-hover:to-orange-600 transition-colors">
-                <CloudUpload className="h-7 w-7 text-orange-500 group-hover:text-white transition-colors" />
+          <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 mt-6">
+            <article className="p-6 bg-white dark:bg-slate-900 rounded-2xl border border-slate-100 dark:border-slate-700 text-center">
+              <div className="mx-auto mb-3 inline-flex items-center justify-center h-12 w-12 rounded-lg bg-yellow-600 text-white">
+                <CloudUpload className="h-5 w-5" />
               </div>
-              <h3 className="text-xl font-bold text-slate-900 dark:text-slate-100 mb-3">
-                Subis el Expediente
-              </h3>
-              <p className="text-slate-600 dark:text-slate-300">
-                {" "}
-                Subis el expediente al sistema y luego le indicas tus
-                preferencias e instrucciones.
+              <h4 className="font-semibold mb-2">Carga masiva de documentos</h4>
+              <p className="text-sm text-slate-600 dark:text-slate-300">
+                Suba expedientes en lote y deje que nuestra IA los procese
+                automáticamente.
               </p>
-            </div>
+            </article>
 
-            {/* Feature 2 */}
-            <div className="bg-slate-50 dark:bg-slate-800 p-8 rounded-2xl border border-slate-100 dark:border-slate-700 hover:border-yellow-200 transition-colors group">
-              <div className="bg-linear-to-br from-yellow-100 via-orange-200 to-orange-100 w-14 h-14 rounded-xl flex items-center justify-center mb-6 group-hover:bg-linear-to-br group-hover:from-yellow-600 group-hover:via-orange-500 group-hover:to-orange-600 transition-colors">
-                <SearchCheck className="h-7 w-7 text-orange-500 group-hover:text-white transition-colors" />
+            <article className="p-6 bg-white dark:bg-slate-900 rounded-2xl border border-slate-100 dark:border-slate-700 text-center">
+              <div className="mx-auto mb-3 inline-flex items-center justify-center h-12 w-12 rounded-lg bg-orange-600 text-white">
+                <SearchCheck className="h-5 w-5" />
               </div>
-              <h3 className="text-xl font-bold text-slate-900 dark:text-slate-100 mb-3">
-                Revisas y Aprobas
-              </h3>
-              <p className="text-slate-600 dark:text-slate-300">
-                Generamos un expediente borrador para la revision del abogado.
-                Editar es facil e intuitivo.
+              <h4 className="font-semibold mb-2">Análisis y detección</h4>
+              <p className="text-sm text-slate-600 dark:text-slate-300">
+                Identificamos riesgos clave, fechas y precedentes relevantes en
+                segundos.
               </p>
-            </div>
+            </article>
 
-            {/* Feature 3 */}
-            <div className="bg-slate-50 dark:bg-slate-800 p-8 rounded-2xl border border-slate-100 dark:border-slate-700 hover:border-yellow-200 transition-colors group">
-              <div className="bg-linear-to-br from-yellow-100 via-orange-200 to-orange-100 w-14 h-14 rounded-xl flex items-center justify-center mb-6 group-hover:bg-linear-to-br group-hover:from-yellow-600 group-hover:via-orange-500 group-hover:to-orange-600 transition-colors">
-                <CloudDownload className="h-7 w-7 text-orange-500 group-hover:text-white transition-colors" />
+            <article className="p-6 bg-white dark:bg-slate-900 rounded-2xl border border-slate-100 dark:border-slate-700 text-center">
+              <div className="mx-auto mb-3 inline-flex items-center justify-center h-12 w-12 rounded-lg bg-yellow-700 text-white">
+                <FileText className="h-5 w-5" />
               </div>
-              <h3 className="text-xl font-bold text-slate-900 dark:text-slate-100 mb-3">
-                Descargas el Documento
-              </h3>
-              <p className="text-slate-600 dark:text-slate-300">
-                Tenemos una gran variedad de templates para formatear los
-                expedientes. Tambien podes editar tu propio template.
+              <h4 className="font-semibold mb-2">Generación de escritos</h4>
+              <p className="text-sm text-slate-600 dark:text-slate-300">
+                Redactamos borradores y escritos finales ajustados a la
+                normativa y estilo solicitado.
               </p>
-            </div>
+            </article>
+
+            <article className="p-6 bg-white dark:bg-slate-900 rounded-2xl border border-slate-100 dark:border-slate-700 text-center">
+              <div className="mx-auto mb-3 inline-flex items-center justify-center h-12 w-12 rounded-lg bg-amber-500 text-white">
+                <Calculator className="h-5 w-5" />
+              </div>
+              <h4 className="font-semibold mb-2">Cálculos y liquidaciones</h4>
+              <p className="text-sm text-slate-600 dark:text-slate-300">
+                Automatizamos cálculos indemnizatorios y tablas de liquidación
+                con precisión.
+              </p>
+            </article>
+
+            <article className="p-6 bg-white dark:bg-slate-900 rounded-2xl border border-slate-100 dark:border-slate-700 text-center">
+              <div className="mx-auto mb-3 inline-flex items-center justify-center h-12 w-12 rounded-lg bg-red-500 text-white">
+                <ShieldCheck className="h-5 w-5" />
+              </div>
+              <h4 className="font-semibold mb-2">Privacidad y control</h4>
+              <p className="text-sm text-slate-600 dark:text-slate-300">
+                Tratamos datos sensibles con medidas de seguridad compatibles
+                con la normativa.
+              </p>
+            </article>
           </div>
         </div>
       </section>
@@ -480,34 +492,109 @@ export default function LandingPage() {
       {/* --- ARTICLES / INSIGHTS --- */}
       <section id="articles" className="py-20 bg-slate-50 dark:bg-slate-800">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-slate-900 dark:text-slate-100 text-center mb-4">Artículos y Análisis</h2>
+          <h2 className="text-3xl font-bold text-slate-900 dark:text-slate-100 text-center mb-4">
+            Artículos y Análisis
+          </h2>
           <p className="text-center text-slate-600 dark:text-slate-300 max-w-2xl mx-auto mb-12">
-            Lecturas recomendadas sobre LegalTech y el impacto de la inteligencia artificial en la práctica jurídica.
+            Lecturas recomendadas sobre LegalTech y el impacto de la
+            inteligencia artificial en la práctica jurídica.
           </p>
 
-          <div className="grid md:grid-cols-4 gap-6">
+          <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
             <article className="p-6 bg-white dark:bg-slate-900 rounded-2xl border border-slate-100 dark:border-slate-700">
-              <h3 className="text-lg font-semibold text-slate-900 dark:text-slate-100 mb-2">Cómo la IA está transformando el trabajo de los abogados</h3>
-              <p className="text-sm text-slate-600 dark:text-slate-300 mb-4">Un repaso sobre automatización de tareas rutinarias, revisión de contratos y generación de escritos con modelos de lenguaje.</p>
-              <a href="https://example.com/article-ia-transformacion" target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-orange-600 hover:underline">Leer artículo →</a>
+              <h3 className="text-lg font-semibold text-slate-900 dark:text-slate-100 mb-2">
+                Impacto y límites de la inteligencia artificial en la práctica
+                jurídica
+              </h3>
+              <p className="text-sm text-slate-600 dark:text-slate-300 mb-4">
+                Análisis publicado en Redalyc sobre los alcances y restricciones
+                de la IA en labores jurídicas.
+              </p>
+              <a
+                href="https://www.redalyc.org/journal/5602/560279956011/html/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-sm font-medium text-orange-600 hover:underline"
+              >
+                Leer artículo →
+              </a>
             </article>
 
             <article className="p-6 bg-white dark:bg-slate-900 rounded-2xl border border-slate-100 dark:border-slate-700">
-              <h3 className="text-lg font-semibold text-slate-900 dark:text-slate-100 mb-2">Ética y responsabilidad en modelos jurídicos</h3>
-              <p className="text-sm text-slate-600 dark:text-slate-300 mb-4">Consideraciones sobre sesgos, transparencia y control humano cuando se usan sistemas automáticos en decisiones legales.</p>
-              <a href="https://example.com/article-etica" target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-orange-600 hover:underline">Leer artículo →</a>
+              <h3 className="text-lg font-semibold text-slate-900 dark:text-slate-100 mb-2">
+                Impacto de la Inteligencia Artificial en la Práctica Jurídica:
+                Transformaciones y Desafíos
+              </h3>
+              <p className="text-sm text-slate-600 dark:text-slate-300 mb-4">
+                Ensayo en Ciencia Latina que aborda transformaciones y retos que
+                plantea la IA en el ejercicio profesional del Derecho.
+              </p>
+              <a
+                href="https://ciencialatina.org/index.php/cienciala/article/view/14314"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-sm font-medium text-orange-600 hover:underline"
+              >
+                Leer artículo →
+              </a>
             </article>
 
             <article className="p-6 bg-white dark:bg-slate-900 rounded-2xl border border-slate-100 dark:border-slate-700">
-              <h3 className="text-lg font-semibold text-slate-900 dark:text-slate-100 mb-2">Integración de LegalTech en despachos pequeños y medianos</h3>
-              <p className="text-sm text-slate-600 dark:text-slate-300 mb-4">Estrategias prácticas para adoptar herramientas con bajo costo y alto impacto en productividad.</p>
-              <a href="https://example.com/article-integracion" target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-orange-600 hover:underline">Leer artículo →</a>
+              <h3 className="text-lg font-semibold text-slate-900 dark:text-slate-100 mb-2">
+                Impacto de la Inteligencia Artificial en la Práctica Jurídica
+                (PDF)
+              </h3>
+              <p className="text-sm text-slate-600 dark:text-slate-300 mb-4">
+                Versión PDF disponible en Dialnet con un estudio profundo sobre
+                aplicaciones prácticas de la IA en el derecho.
+              </p>
+              <a
+                href="https://dialnet.unirioja.es/descarga/articulo/9848636.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-sm font-medium text-orange-600 hover:underline"
+              >
+                Descargar PDF →
+              </a>
             </article>
 
             <article className="p-6 bg-white dark:bg-slate-900 rounded-2xl border border-slate-100 dark:border-slate-700">
-              <h3 className="text-lg font-semibold text-slate-900 dark:text-slate-100 mb-2">Regulación y compliance para IA en el sector legal</h3>
-              <p className="text-sm text-slate-600 dark:text-slate-300 mb-4">Panorama regulatorio actual y recomendaciones para mantener cumplimiento al integrar IA en procesos legales.</p>
-              <a href="https://example.com/article-regulacion" target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-orange-600 hover:underline">Leer artículo →</a>
+              <h3 className="text-lg font-semibold text-slate-900 dark:text-slate-100 mb-2">
+                Impacto de la inteligencia artificial en el ámbito jurídico:
+                agilidad y automatización
+              </h3>
+              <p className="text-sm text-slate-600 dark:text-slate-300 mb-4">
+                Artículo sobre la automatización de procesos y la mejora de
+                tiempos en procedimientos legales.
+              </p>
+              <a
+                href="https://polodelconocimiento.com/ojs/index.php/es/article/view/10165"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-sm font-medium text-orange-600 hover:underline"
+              >
+                Leer artículo →
+              </a>
+            </article>
+
+            <article className="p-6 bg-white dark:bg-slate-900 rounded-2xl border border-slate-100 dark:border-slate-700">
+              <h3 className="text-lg font-semibold text-slate-900 dark:text-slate-100 mb-2">
+                La época de la abogacía automatizada: Inteligencia Artificial y
+                su impacto en la práctica legal (tesis)
+              </h3>
+              <p className="text-sm text-slate-600 dark:text-slate-300 mb-4">
+                Tesis alojada en el repositorio de la Universidad de Chile que
+                explora el impacto a largo plazo de la automatización en la
+                profesión.
+              </p>
+              <a
+                href="https://repositorio.uchile.cl/handle/2250/202550"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-sm font-medium text-orange-600 hover:underline"
+              >
+                Leer tesis →
+              </a>
             </article>
           </div>
         </div>
