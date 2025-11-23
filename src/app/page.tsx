@@ -477,6 +477,41 @@ export default function LandingPage() {
           </div>
         </div>
       </section>
+      {/* --- ARTICLES / INSIGHTS --- */}
+      <section id="articles" className="py-20 bg-slate-50 dark:bg-slate-800">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl font-bold text-slate-900 dark:text-slate-100 text-center mb-4">Artículos y Análisis</h2>
+          <p className="text-center text-slate-600 dark:text-slate-300 max-w-2xl mx-auto mb-12">
+            Lecturas recomendadas sobre LegalTech y el impacto de la inteligencia artificial en la práctica jurídica.
+          </p>
+
+          <div className="grid md:grid-cols-4 gap-6">
+            <article className="p-6 bg-white dark:bg-slate-900 rounded-2xl border border-slate-100 dark:border-slate-700">
+              <h3 className="text-lg font-semibold text-slate-900 dark:text-slate-100 mb-2">Cómo la IA está transformando el trabajo de los abogados</h3>
+              <p className="text-sm text-slate-600 dark:text-slate-300 mb-4">Un repaso sobre automatización de tareas rutinarias, revisión de contratos y generación de escritos con modelos de lenguaje.</p>
+              <a href="https://example.com/article-ia-transformacion" target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-orange-600 hover:underline">Leer artículo →</a>
+            </article>
+
+            <article className="p-6 bg-white dark:bg-slate-900 rounded-2xl border border-slate-100 dark:border-slate-700">
+              <h3 className="text-lg font-semibold text-slate-900 dark:text-slate-100 mb-2">Ética y responsabilidad en modelos jurídicos</h3>
+              <p className="text-sm text-slate-600 dark:text-slate-300 mb-4">Consideraciones sobre sesgos, transparencia y control humano cuando se usan sistemas automáticos en decisiones legales.</p>
+              <a href="https://example.com/article-etica" target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-orange-600 hover:underline">Leer artículo →</a>
+            </article>
+
+            <article className="p-6 bg-white dark:bg-slate-900 rounded-2xl border border-slate-100 dark:border-slate-700">
+              <h3 className="text-lg font-semibold text-slate-900 dark:text-slate-100 mb-2">Integración de LegalTech en despachos pequeños y medianos</h3>
+              <p className="text-sm text-slate-600 dark:text-slate-300 mb-4">Estrategias prácticas para adoptar herramientas con bajo costo y alto impacto en productividad.</p>
+              <a href="https://example.com/article-integracion" target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-orange-600 hover:underline">Leer artículo →</a>
+            </article>
+
+            <article className="p-6 bg-white dark:bg-slate-900 rounded-2xl border border-slate-100 dark:border-slate-700">
+              <h3 className="text-lg font-semibold text-slate-900 dark:text-slate-100 mb-2">Regulación y compliance para IA en el sector legal</h3>
+              <p className="text-sm text-slate-600 dark:text-slate-300 mb-4">Panorama regulatorio actual y recomendaciones para mantener cumplimiento al integrar IA en procesos legales.</p>
+              <a href="https://example.com/article-regulacion" target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-orange-600 hover:underline">Leer artículo →</a>
+            </article>
+          </div>
+        </div>
+      </section>
       <footer className="bg-slate-50 dark:bg-slate-900 border-t border-slate-200 dark:border-slate-700 pt-16 pb-8">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-4 gap-8 mb-12">
