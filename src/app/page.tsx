@@ -379,52 +379,100 @@ export default function LandingPage() {
           </p>
 
           <div className="grid md:grid-cols-3 gap-8">
-            <div className="p-6 bg-slate-50 dark:bg-slate-800 rounded-2xl border border-slate-100 dark:border-slate-700 text-center">
-              <div className="mx-auto h-20 w-20 rounded-full bg-yellow-600 text-white flex items-center justify-center text-xl font-bold mb-4">
-                MF
+            {/* Ezequiel Vazquez */}
+            <div className="p-6 bg-slate-50 dark:bg-slate-800 rounded-2xl border border-slate-100 dark:border-slate-700 text-center h-full flex flex-col">
+              <div className="relative mx-auto h-20 w-20 rounded-full bg-yellow-600 text-white flex items-center justify-center text-xl font-bold mb-4 overflow-hidden">
+                <Image
+                  src="/ezequile.jpg"
+                  alt="EV"
+                  fill
+                  className="absolute inset-0 h-full w-full object-cover rounded-full"
+                />
               </div>
-              <h3 className="text-xl font-bold text-slate-900 dark:text-slate-100">María Fernández</h3>
-              <p className="text-sm text-slate-500 dark:text-slate-300 mb-3">CEO & Co-fundadora</p>
-              <p className="text-sm text-slate-600 dark:text-slate-300 mb-4">
-                Abogada laboralista con más de 12 años de experiencia en
-                litigio y producto legal. Lidera la visión del producto y las
-                alianzas estratégicas.
+              <h3 className="text-xl font-bold text-slate-900 dark:text-slate-100">
+                Ezequiel Vazquez
+              </h3>
+              <p className="text-sm text-slate-500 dark:text-slate-300 mb-3">
+                CEO & Fundador
               </p>
-              <a href="https://www.linkedin.com/in/maria-fernandez" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center px-3 py-2 rounded-md text-sm font-medium text-yellow-600 hover:underline">
-                Ver LinkedIn
-              </a>
-            </div>
-
-            <div className="p-6 bg-slate-50 dark:bg-slate-800 rounded-2xl border border-slate-100 dark:border-slate-700 text-center">
-              <div className="mx-auto h-20 w-20 rounded-full bg-orange-600 text-white flex items-center justify-center text-xl font-bold mb-4">
-                TH
+              <p className="text-sm text-slate-600 dark:text-slate-300 mb-4">
+                Emprendedor y Fundador con mas de 20 años de experiencia
+                innovando en startups.
+              </p>
+              <div className="mt-auto">
+                <a
+                  href="https://www.linkedin.com/in/revazquez/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center justify-center px-3 py-2 rounded-md text-sm font-medium text-yellow-600 hover:underline"
+                >
+                  Ver LinkedIn
+                </a>
               </div>
-              <h3 className="text-xl font-bold text-slate-900 dark:text-slate-100">Tomás Herrera</h3>
-              <p className="text-sm text-slate-500 dark:text-slate-300 mb-3">CTO & Co-fundador</p>
+            </div>
+            {/* Francisco Peretti */}
+            <div className="p-6 bg-slate-50 dark:bg-slate-800 rounded-2xl border border-slate-100 dark:border-slate-700 text-center h-full flex flex-col">
+              <div className="relative mx-auto h-20 w-20 rounded-full bg-orange-600 text-white flex items-center justify-center text-xl font-bold mb-4 overflow-hidden">
+                <Image
+                  src="/pancho.jpg"
+                  alt="FP"
+                  fill
+                  className="absolute inset-0 h-full w-full object-cover rounded-full"
+                />
+              </div>
+              <h3 className="text-xl font-bold text-slate-900 dark:text-slate-100">
+                Francisco Peretti
+              </h3>
+              <p className="text-sm text-slate-500 dark:text-slate-300 mb-3">
+                CTO
+              </p>
               <p className="text-sm text-slate-600 dark:text-slate-300 mb-4">
                 Ingeniero de software especializado en aprendizaje automático y
                 arquitectura de sistemas escalables. Encabeza la ingeniería de
                 modelos y la infraestructura.
               </p>
-              <a href="https://www.linkedin.com/in/tomas-herrera" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center px-3 py-2 rounded-md text-sm font-medium text-orange-600 hover:underline">
-                Ver LinkedIn
-              </a>
-            </div>
-
-            <div className="p-6 bg-slate-50 dark:bg-slate-800 rounded-2xl border border-slate-100 dark:border-slate-700 text-center">
-              <div className="mx-auto h-20 w-20 rounded-full bg-yellow-700 text-white flex items-center justify-center text-xl font-bold mb-4">
-                LG
+              <div className="mt-auto">
+                <a
+                  href="https://www.linkedin.com/in/francisco-peretti/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center justify-center px-3 py-2 rounded-md text-sm font-medium text-orange-600 hover:underline"
+                >
+                  Ver LinkedIn
+                </a>
               </div>
-              <h3 className="text-xl font-bold text-slate-900 dark:text-slate-100">Lucía Gómez</h3>
-              <p className="text-sm text-slate-500 dark:text-slate-300 mb-3">Head of Legal Research</p>
+            </div>
+            {/*  Alina Serra */}
+            <div className="p-6 bg-slate-50 dark:bg-slate-800 rounded-2xl border border-slate-100 dark:border-slate-700 text-center h-full flex flex-col">
+              <div className="relative mx-auto h-20 w-20 rounded-full bg-yellow-700 text-white flex items-center justify-center text-xl font-bold mb-4 overflow-hidden">
+                <Image
+                  src="/alina.jpg"
+                  alt="AS"
+                  fill
+                  className="absolute inset-0 h-full w-full object-cover rounded-full"
+                />
+              </div>
+              <h3 className="text-xl font-bold text-slate-900 dark:text-slate-100">
+                Alina Serra
+              </h3>
+              <p className="text-sm text-slate-500 dark:text-slate-300 mb-3">
+                Head of Legal Research
+              </p>
               <p className="text-sm text-slate-600 dark:text-slate-300 mb-4">
                 Doctora en Derecho con amplia experiencia en jurisprudencia
                 laboral y análisis doctrinal. Supervisa la curación del
                 conocimiento legal del producto.
               </p>
-              <a href="https://www.linkedin.com/in/lucia-gomez" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center px-3 py-2 rounded-md text-sm font-medium text-yellow-700 hover:underline">
-                Ver LinkedIn
-              </a>
+              <div className="mt-auto">
+                <a
+                  href="https://www.linkedin.com/in/alina-serra-97495b21b/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center justify-center px-3 py-2 rounded-md text-sm font-medium text-yellow-700 hover:underline"
+                >
+                  Ver LinkedIn
+                </a>
+              </div>
             </div>
           </div>
         </div>
