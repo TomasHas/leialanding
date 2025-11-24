@@ -310,32 +310,64 @@ export default function LandingPage() {
                 El problema del intercambio telegráfico manual
               </h2>
               <div className="space-y-6">
-                <div className="flex gap-4">
-                  <div className="bg-red-500/20 p-2 rounded h-fit">
-                    <span className="text-red-400 font-bold">✕</span>
+                <div className="flex gap-4 items-start">
+                  <div className="flex-shrink-0 p-3 rounded-lg bg-blue-600 text-white">
+                    <MessageSquareText className="h-5 w-5" />
                   </div>
                   <div>
                     <h4 className="font-bold text-lg">
-                      Errores de cálculo costosos
+                      Document Review / Análisis
                     </h4>
                     <p className="text-slate-400 text-sm">
-                      Olvidar aplicar una multa de la Ley 25.323 o usar una tasa
-                      de interés desactualizada puede costar millones a su
-                      cliente.
+                      Resumen instantáneo de depoimentos y detección de riesgos
+                      en documentos (por ejemplo, cláusulas problemáticas en
+                      NDAs).
                     </p>
                   </div>
                 </div>
-                <div className="flex gap-4">
-                  <div className="bg-red-500/20 p-2 rounded h-fit">
-                    <span className="text-red-400 font-bold">✕</span>
+
+                <div className="flex gap-4 items-start">
+                  <div className="flex-shrink-0 p-3 rounded-lg bg-blue-600 text-white">
+                    <SearchCheck className="h-5 w-5" />
                   </div>
                   <div>
                     <h4 className="font-bold text-lg">
-                      Pérdida de tiempo en redacción
+                      Investigación Jurídica
                     </h4>
                     <p className="text-slate-400 text-sm">
-                      Redactar negaciones de hechos genéricas consume horas
-                      valiosas que podría dedicar a la estrategia del caso.
+                      Búsqueda de jurisprudencia y doctrina con citas incluidas
+                      para apoyar sus argumentos.
+                    </p>
+                  </div>
+                </div>
+
+                <div className="flex gap-4 items-start">
+                  <div className="flex-shrink-0 p-3 rounded-lg bg-blue-600 text-white">
+                    <FileText className="h-5 w-5" />
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-lg">
+                      Asistente de Redacción
+                    </h4>
+                    <p className="text-slate-400 text-sm">
+                      Generación de cláusulas y borradores basados en la
+                      biblioteca de precedentes de su estudio.
+                    </p>
+                  </div>
+                </div>
+
+                <div className="flex gap-4 items-start">
+                  <div className="flex-shrink-0 p-3 rounded-lg bg-blue-600 text-white">
+                    <CheckCircle2 className="h-5 w-5" />
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-lg">
+                      Citas y Guardrails contra &quot;hallucinations&quot;
+                    </h4>
+                    <p className="text-slate-400 text-sm">
+                      La IA cita sus fuentes cuando es posible y aplica
+                      controles para minimizar hechos inventados, reduciendo el
+                      riesgo de &quot;hallucinations&quot;.
                     </p>
                   </div>
                 </div>
