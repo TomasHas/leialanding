@@ -299,7 +299,10 @@ export default function LandingPage() {
       </section>
 
       {/* --- PROBLEM / SOLUTION GRID --- */}
-      <section className="py-24 bg-slate-900 text-white">
+      <section className="py-24 bg-slate-900 text-white justify-center">
+        <h1 className=" text-center text-3xl md:text-4xl  mb-6text-3xl font-bold text-slate-900 dark:text-slate-100 mb-4">
+          Features
+        </h1>
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-16 items-center">
             <div>
@@ -398,10 +401,10 @@ export default function LandingPage() {
               <div className="hidden md:block">
                 {/* Illustration placeholder */}
                 <div className="bg-white/10 backdrop-blur-sm border border-white/20 p-6 rounded-xl text-white font-mono text-sm">
-                  <p>{`> Analizando jurisprudencia...`}</p>
-                  <p className="text-slate-600">{`> Fallo plenario "Tulosai" detectado.`}</p>
-                  <p>{`> Calculando indemnización tope...`}</p>
-                  <p className="text-slate-600">{`> Liquidación lista. Generando PDF...`}</p>
+                  <p>{`> cargando archivo...`}</p>
+                  <p className="text-slate-600">{`> analizando datos..."`}</p>
+                  <p>{`> procesando instrucciones...`}</p>
+                  <p className="text-slate-600">{`> Borrador aprobado. Generando PDF...`}</p>
                   <div className="mt-4 h-2 w-full bg-linear-to-br from-blue-900/50 via-blue-700/50 to-blue-900/50 rounded-full overflow-hidden">
                     <div className="h-full bg-green-400 w-3/4"></div>
                   </div>
