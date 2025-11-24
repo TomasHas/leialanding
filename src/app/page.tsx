@@ -165,52 +165,52 @@ export default function LandingPage() {
       {/* --- FEATURES SECTION --- */}
       <section id="features" className="py-24 bg-white dark:bg-slate-900">
         <div className="container mx-auto px-4">
-          <div className="text-center mb-16">
-            <blockquote className="mx-auto max-w-3xl text-xl md:text-2xl italic text-slate-800 dark:text-slate-100 bg-slate-50 dark:bg-slate-800 border-l-4 border-yellow-500 pl-6 py-4 rounded mb-6">
-              La IA no es solo una herramienta para la automatización; es un
-              facilitador para la aumentación.
-              <footer className="mt-3 not-italic text-sm text-slate-600 dark:text-slate-300">
-                — Satya Nadella, Chairman and CEO of Microsoft.
-              </footer>
-            </blockquote>
+          <div className="mx-auto max-w-4xl">
+            <div className="bg-white dark:bg-slate-800 rounded-3xl p-8 md:p-10 shadow-lg border border-slate-100 dark:border-slate-700">
+              <div className="flex items-start md:items-center gap-4 md:gap-6 mb-6">
+                <div className="flex-none">
+                  <div className="inline-flex items-center justify-center h-14 w-14 rounded-lg bg-blue-50 dark:bg-slate-900">
+                    <ShieldCheck className="h-7 w-7 text-blue-600" />
+                  </div>
+                </div>
+                <div className="flex-1">
+                  <h2 className="text-2xl md:text-3xl font-bold text-slate-900 dark:text-slate-100 leading-snug">
+                    Seguridad y privacidad, primero
+                  </h2>
+                  <p className="mt-2 text-sm text-slate-600 dark:text-slate-300">
+                    Cumplimos con la Ley 25.326 de Protección de Datos Personales y aplicamos controles de seguridad para proteger la confidencialidad de sus clientes.
+                  </p>
+                </div>
+              </div>
+
+              <div className="grid md:grid-cols-3 gap-4 mt-4">
+                <div className="p-4 bg-slate-50 dark:bg-slate-900 rounded-lg border border-slate-100 dark:border-slate-700">
+                  <h3 className="text-lg font-semibold text-slate-900 dark:text-slate-100 mb-2">Privacidad de datos</h3>
+                  <p className="text-sm text-slate-600 dark:text-slate-300">No entrenamos nuestros modelos con los datos de sus clientes; los datos se mantienen fuera de cualquier conjunto de entrenamiento público o privado.</p>
+                </div>
+
+                <div className="p-4 bg-slate-50 dark:bg-slate-900 rounded-lg border border-slate-100 dark:border-slate-700">
+                  <h3 className="text-lg font-semibold text-slate-900 dark:text-slate-100 mb-2">Cifrado y cumplimiento</h3>
+                  <p className="text-sm text-slate-600 dark:text-slate-300">Ciframos los datos en tránsito y en reposo (AES-256). Controles y procesos alineados con SOC 2 Type II e ISO 27001; soporte para requisitos regulatorios adicionales (por ejemplo, HIPAA) cuando corresponda.</p>
+                </div>
+
+                <div className="p-4 bg-slate-50 dark:bg-slate-900 rounded-lg border border-slate-100 dark:border-slate-700">
+                  <h3 className="text-lg font-semibold text-slate-900 dark:text-slate-100 mb-2">Residencia de datos</h3>
+                  <p className="text-sm text-slate-600 dark:text-slate-300">Sus datos se almacenan en la región que usted elija. Según la configuración contratada, podemos garantizar que los datos no salgan de su instancia privada en la nube.</p>
+                </div>
+              </div>
+
+              <div className="mt-6 flex flex-col sm:flex-row items-center justify-between gap-4">
+                <p className="text-sm text-slate-500">¿Necesita evidencias o certificados? Podemos compartir reportes bajo NDA.</p>
+                <a href="#" className="inline-flex items-center gap-2 px-4 py-2 rounded-md text-sm font-medium bg-linear-to-br from-blue-600 to-blue-500 text-white hover:opacity-95">Contactar ventas</a>
+              </div>
+            </div>
+            <div className="mt-6 flex justify-center gap-8 opacity-70">
+              <span className="text-sm font-semibold">ESTUDIO PÉREZ & ASOC.</span>
+              <span className="text-sm font-semibold">GÓMEZ LEGAL TECH</span>
+              <span className="text-sm font-semibold">GRUPO JURÍDICO SUR</span>
+            </div>
           </div>
-          <span className="text-transparent bg-clip-text bg-linear-to-br from-blue-600 via-blue-500 to-blue-400 text-5xl font-extrabold ">
-            Como Funciona
-          </span>
-          <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 mt-6">
-            <article className="p-6 bg-white dark:bg-slate-900 rounded-2xl border border-slate-100 dark:border-slate-700 text-center">
-              <div className="mx-auto mb-3 inline-flex items-center justify-center h-12 w-12 rounded-lg bg-blue-600 text-white">
-                <CloudUpload className="h-5 w-5" />
-              </div>
-              <h4 className="font-semibold mb-2">Carga masiva de documentos</h4>
-              <p className="text-sm text-slate-600 dark:text-slate-300">
-                Suba expedientes en lote y deje que nuestra IA los procese
-                automáticamente.
-              </p>
-            </article>
-
-            <article className="p-6 bg-white dark:bg-slate-900 rounded-2xl border border-slate-100 dark:border-slate-700 text-center">
-              <div className="mx-auto mb-3 inline-flex items-center justify-center h-12 w-12 rounded-lg bg-blue-600 text-white">
-                <SearchCheck className="h-5 w-5" />
-              </div>
-              <h4 className="font-semibold mb-2">Análisis y detección</h4>
-              <p className="text-sm text-slate-600 dark:text-slate-300">
-                Identificamos riesgos clave, fechas y precedentes relevantes en
-                segundos.
-              </p>
-            </article>
-
-            <article className="p-6 bg-white dark:bg-slate-900 rounded-2xl border border-slate-100 dark:border-slate-700 text-center">
-              <div className="mx-auto mb-3 inline-flex items-center justify-center h-12 w-12 rounded-lg bg-blue-700 text-white">
-                <FileText className="h-5 w-5" />
-              </div>
-              <h4 className="font-semibold mb-2">Generación de escritos</h4>
-              <p className="text-sm text-slate-600 dark:text-slate-300">
-                Redactamos borradores y escritos finales ajustados a la
-                normativa y estilo solicitado.
-              </p>
-            </article>
-
             <article className="p-6 bg-white dark:bg-slate-900 rounded-2xl border border-slate-100 dark:border-slate-700 text-center">
               <div className="mx-auto mb-3 inline-flex items-center justify-center h-12 w-12 rounded-lg bg-blue-500 text-white">
                 <Calculator className="h-5 w-5" />
@@ -308,52 +308,37 @@ export default function LandingPage() {
       </section>
 
       {/* --- TRUST / SECURITY --- */}
-      <section id="security" className="py-20 bg-gray-400">
+      <section id="security" className="py-20 bg-gray-500">
         <div className="container mx-auto px-4 text-center">
           <ShieldCheck className="h-12 w-12 text-blue-600 mx-auto mb-4" />
-          <h2 className="text-3xl font-bold text-slate-900 dark:text-slate-100 mb-4">
-            Seguridad y Privacidad Primero
-          </h2>
-          <p className="text-slate-600 dark:text-slate-300 max-w-2xl mx-auto mb-6">
-            Cumplimos estrictamente con la Ley 25.326 de Protección de Datos
-            Personales.
-          </p>
+            <h2 className="text-3xl font-bold text-slate-900 dark:text-slate-100 mb-4">
+              Seguridad y privacidad, primero
+            </h2>
+            <p className="mt-2 text-sm text-slate-600 dark:text-slate-300">
+              Cumplimos con la Ley 25.326 de Protección de Datos Personales y aplicamos controles de seguridad para proteger la confidencialidad de sus clientes.
+            </p>
 
-          <div className="max-w-3xl mx-auto mb-6 text-sm text-slate-600 dark:text-slate-300 space-y-3 text-left">
-            <div>
-              <strong>Privacidad de Datos:</strong> No entrenamos nuestros
-              modelos con los datos de sus clientes; los datos del cliente se
-              mantienen fuera de cualquier conjunto de entrenamiento público o
-              privado.
-            </div>
-            <div>
-              <strong>Cifrado y Cumplimiento:</strong> Ciframos los datos en
-              tránsito y en reposo (AES-256 / 256-bit). Controles y procesos
-              alineados con SOC 2 Type II e ISO 27001; ofrecemos soporte para
-              requisitos regulatorios adicionales (por ejemplo, HIPAA) cuando
-              corresponda.
-            </div>
-            <div>
-              <strong>Residencia de Datos:</strong> Sus datos se almacenan en la
-              región que usted elija y, según la configuración contratada, sus
-              datos no salen de su instancia privada en la nube — podemos
-              garantizar que los datos no salgan de su instancia privada si así
-              lo requiere.
-            </div>
-          </div>
+            <div className="grid md:grid-cols-3 gap-4 mt-4">
+              <div className="p-4 bg-slate-50 dark:bg-slate-900 rounded-lg border border-slate-100 dark:border-slate-700">
+                <h3 className="text-lg font-semibold text-slate-900 dark:text-slate-100 mb-2">Privacidad de datos</h3>
+                <p className="text-sm text-slate-600 dark:text-slate-300">No entrenamos nuestros modelos con los datos de sus clientes; los datos se mantienen fuera de cualquier conjunto de entrenamiento público o privado.</p>
+              </div>
 
-          <div className="flex flex-wrap justify-center gap-8 opacity-60 grayscale">
-            {/* Placeholder Logos for "Trust" */}
-            <span className="text-xl font-bold text-black">
-              ESTUDIO PÉREZ & ASOC.
-            </span>
-            <span className="text-xl font-bold text-black">
-              GÓMEZ LEGAL TECH
-            </span>
-            <span className="text-xl font-bold text-black">
-              GRUPO JURÍDICO SUR
-            </span>
-          </div>
+              <div className="p-4 bg-slate-50 dark:bg-slate-900 rounded-lg border border-slate-100 dark:border-slate-700">
+                <h3 className="text-lg font-semibold text-slate-900 dark:text-slate-100 mb-2">Cifrado y cumplimiento</h3>
+                <p className="text-sm text-slate-600 dark:text-slate-300">Ciframos los datos en tránsito y en reposo (AES-256). Controles y procesos alineados con SOC 2 Type II e ISO 27001; soporte para requisitos regulatorios adicionales (por ejemplo, HIPAA) cuando corresponda.</p>
+              </div>
+
+              <div className="p-4 bg-slate-50 dark:bg-slate-900 rounded-lg border border-slate-100 dark:border-slate-700">
+                <h3 className="text-lg font-semibold text-slate-900 dark:text-slate-100 mb-2">Residencia de datos</h3>
+                <p className="text-sm text-slate-600 dark:text-slate-300">Sus datos se almacenan en la región que usted elija. Según la configuración contratada, podemos garantizar que los datos no salgan de su instancia privada en la nube.</p>
+              </div>
+            </div>
+            <div className="mt-6 flex justify-center gap-8 opacity-70">
+              <span className="text-sm font-semibold">ESTUDIO PÉREZ & ASOC.</span>
+              <span className="text-sm font-semibold">GÓMEZ LEGAL TECH</span>
+              <span className="text-sm font-semibold">GRUPO JURÍDICO SUR</span>
+            </div>
         </div>
       </section>
 
