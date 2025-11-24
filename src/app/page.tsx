@@ -319,15 +319,26 @@ export default function LandingPage() {
             Personales.
           </p>
 
-          <div className="max-w-3xl mx-auto mb-6 text-sm text-slate-600 dark:text-slate-300 space-y-3">
+          <div className="max-w-3xl mx-auto mb-6 text-sm text-slate-600 dark:text-slate-300 space-y-3 text-left">
             <div>
-              <strong>Data Privacy:</strong> &quot;We do not train our models on your client data.&quot; — No entrenamos nuestros modelos con los datos de sus clientes; los datos del cliente se mantienen fuera de cualquier conjunto de entrenamiento público o privado.
+              <strong>Privacidad de Datos:</strong> No entrenamos nuestros
+              modelos con los datos de sus clientes; los datos del cliente se
+              mantienen fuera de cualquier conjunto de entrenamiento público o
+              privado.
             </div>
             <div>
-              <strong>Encryption & Compliance:</strong> Ciframos los datos en tránsito y en reposo (AES-256 / 256-bit). Controles y procesos alineados con SOC 2 Type II e ISO 27001; ofrecemos soporte para requisitos regulatorios adicionales (por ejemplo, HIPAA) cuando corresponda.
+              <strong>Cifrado y Cumplimiento:</strong> Ciframos los datos en
+              tránsito y en reposo (AES-256 / 256-bit). Controles y procesos
+              alineados con SOC 2 Type II e ISO 27001; ofrecemos soporte para
+              requisitos regulatorios adicionales (por ejemplo, HIPAA) cuando
+              corresponda.
             </div>
             <div>
-              <strong>Data Residency:</strong> Sus datos se almacenan en la región que usted elija y, según la configuración contratada, &quot;Your data never leaves your private cloud instance&quot; — podemos garantizar que los datos no salgan de su instancia privada si así lo requiere.
+              <strong>Residencia de Datos:</strong> Sus datos se almacenan en la
+              región que usted elija y, según la configuración contratada, sus
+              datos no salen de su instancia privada en la nube — podemos
+              garantizar que los datos no salgan de su instancia privada si así
+              lo requiere.
             </div>
           </div>
 
