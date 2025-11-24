@@ -91,8 +91,7 @@ export default function LandingPage() {
           <p className="text-xl text-slate-600 dark:text-slate-300 mb-10 max-w-2xl mx-auto leading-relaxed">
             Nuestra IA procesa el expediente y genera el escrito final según sus
             instrucciones y prefencias, liberando a tu equipo para decisiones
-            estratégicas.Satya Nadella. La IA no es solo una herramienta para la
-            automatización; es un facilitador para la aumentación.
+            estratégicas.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
@@ -162,76 +161,139 @@ export default function LandingPage() {
         </div>
       </section>
 
-      {/* --- FEATURES SECTION --- */}
-      <section id="features" className="py-24 bg-white dark:bg-slate-900">
+      {/* --- HOW IT WORKS / CÓMO FUNCIONA --- */}
+      <section id="como-funciona" className="py-16 bg-white dark:bg-slate-900">
         <div className="container mx-auto px-4">
-          <div className="text-center mb-16">
-            <blockquote className="mx-auto max-w-3xl text-xl md:text-2xl italic text-slate-800 dark:text-slate-100 bg-slate-50 dark:bg-slate-800 border-l-4 border-yellow-500 pl-6 py-4 rounded mb-6">
-              La IA no es solo una herramienta para la automatización; es un
-              facilitador para la aumentación.
-              <footer className="mt-3 not-italic text-sm text-slate-600 dark:text-slate-300">
-                — Satya Nadella, Chairman and CEO of Microsoft.
-              </footer>
-            </blockquote>
-          </div>
-          <span className="text-transparent bg-clip-text bg-linear-to-br from-blue-600 via-blue-500 to-blue-400 text-5xl font-extrabold ">
-            Como Funciona
-          </span>
-          <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 mt-6">
-            <article className="p-6 bg-white dark:bg-slate-900 rounded-2xl border border-slate-100 dark:border-slate-700 text-center">
+          <h2 className="text-3xl font-bold text-slate-900 dark:text-slate-100 text-center mb-3">
+            Cómo funciona
+          </h2>
+          <p className="text-center text-slate-600 dark:text-slate-300 max-w-2xl mx-auto mb-8">
+            Subí el archivo, la IA lo analiza y procesa, aprobás el resultado y
+            lo descargás para imprimir.
+          </p>
+
+          <div className="grid gap-6 md:grid-cols-4">
+            <div className="p-6 bg-slate-50 dark:bg-slate-800 rounded-2xl border border-slate-100 dark:border-slate-700 text-center">
               <div className="mx-auto mb-3 inline-flex items-center justify-center h-12 w-12 rounded-lg bg-blue-600 text-white">
                 <CloudUpload className="h-5 w-5" />
               </div>
-              <h4 className="font-semibold mb-2">Carga masiva de documentos</h4>
+              <h4 className="font-semibold mb-2">1. Subir archivo</h4>
               <p className="text-sm text-slate-600 dark:text-slate-300">
-                Suba expedientes en lote y deje que nuestra IA los procese
-                automáticamente.
+                Subí expedientes, telegramas o pruebas desde el panel o por API.
               </p>
-            </article>
+            </div>
 
-            <article className="p-6 bg-white dark:bg-slate-900 rounded-2xl border border-slate-100 dark:border-slate-700 text-center">
+            <div className="p-6 bg-slate-50 dark:bg-slate-800 rounded-2xl border border-slate-100 dark:border-slate-700 text-center">
               <div className="mx-auto mb-3 inline-flex items-center justify-center h-12 w-12 rounded-lg bg-blue-600 text-white">
                 <SearchCheck className="h-5 w-5" />
               </div>
-              <h4 className="font-semibold mb-2">Análisis y detección</h4>
+              <h4 className="font-semibold mb-2">
+                2. Análisis y procesamiento
+              </h4>
               <p className="text-sm text-slate-600 dark:text-slate-300">
-                Identificamos riesgos clave, fechas y precedentes relevantes en
-                segundos.
+                Nuestra IA extrae fechas, partes, riesgos y genera un borrador
+                con referencias relevantes.
               </p>
-            </article>
+            </div>
 
-            <article className="p-6 bg-white dark:bg-slate-900 rounded-2xl border border-slate-100 dark:border-slate-700 text-center">
-              <div className="mx-auto mb-3 inline-flex items-center justify-center h-12 w-12 rounded-lg bg-blue-700 text-white">
-                <FileText className="h-5 w-5" />
+            <div className="p-6 bg-slate-50 dark:bg-slate-800 rounded-2xl border border-slate-100 dark:border-slate-700 text-center">
+              <div className="mx-auto mb-3 inline-flex items-center justify-center h-12 w-12 rounded-lg bg-blue-600 text-white">
+                <CheckCircle2 className="h-5 w-5" />
               </div>
-              <h4 className="font-semibold mb-2">Generación de escritos</h4>
+              <h4 className="font-semibold mb-2">3. Revisión y aprobación</h4>
               <p className="text-sm text-slate-600 dark:text-slate-300">
-                Redactamos borradores y escritos finales ajustados a la
-                normativa y estilo solicitado.
+                Revisá el borrador, ajustá el texto si es necesario y aprobalo
+                con un clic.
               </p>
-            </article>
+            </div>
 
-            <article className="p-6 bg-white dark:bg-slate-900 rounded-2xl border border-slate-100 dark:border-slate-700 text-center">
-              <div className="mx-auto mb-3 inline-flex items-center justify-center h-12 w-12 rounded-lg bg-blue-500 text-white">
-                <Calculator className="h-5 w-5" />
+            <div className="p-6 bg-slate-50 dark:bg-slate-800 rounded-2xl border border-slate-100 dark:border-slate-700 text-center">
+              <div className="mx-auto mb-3 inline-flex items-center justify-center h-12 w-12 rounded-lg bg-blue-600 text-white">
+                <CloudDownload className="h-5 w-5" />
               </div>
-              <h4 className="font-semibold mb-2">Cálculos y liquidaciones</h4>
+              <h4 className="font-semibold mb-2">4. Descargar para imprimir</h4>
               <p className="text-sm text-slate-600 dark:text-slate-300">
-                Automatizamos cálculos indemnizatorios y tablas de liquidación
-                con precisión.
+                Descargá el escrito en PDF o Word listo para presentar o
+                imprimir.
               </p>
-            </article>
+            </div>
+          </div>
+        </div>
+      </section>
 
-            <article className="p-6 bg-white dark:bg-slate-900 rounded-2xl border border-slate-100 dark:border-slate-700 text-center">
-              <div className="mx-auto mb-3 inline-flex items-center justify-center h-12 w-12 rounded-lg bg-red-500 text-white">
-                <ShieldCheck className="h-5 w-5" />
+      {/* --- TRUST / SECURITY --- */}
+      <section id="security" className="py-20 bg-slate-50 dark:bg-slate-900">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-8">
+            <ShieldCheck className="h-12 w-12 text-blue-600 mx-auto mb-4" />
+            <h2 className="text-3xl font-bold text-slate-900 dark:text-slate-100 mb-2">
+              Seguridad y Privacidad Primero
+            </h2>
+            <p className="text-slate-600 dark:text-slate-300 max-w-2xl mx-auto">
+              Tratamos la información confidencial con controles técnicos y
+              organizativos de primer nivel para cumplir normativas y proteger
+              la confidencialidad de sus casos.
+            </p>
+          </div>
+
+          <div className="grid gap-6 md:grid-cols-3 mb-8">
+            <div className="p-6 bg-white dark:bg-slate-800 rounded-2xl border border-slate-100 dark:border-slate-700 shadow-sm text-left">
+              <div className="flex items-center gap-4 mb-3">
+                <div className="p-2 rounded-lg bg-blue-600 text-white">
+                  <ShieldCheck className="h-5 w-5" />
+                </div>
+                <h3 className="text-lg font-semibold text-slate-900 dark:text-slate-100">
+                  Privacidad de datos
+                </h3>
               </div>
-              <h4 className="font-semibold mb-2">Privacidad y control</h4>
               <p className="text-sm text-slate-600 dark:text-slate-300">
-                Tratamos datos sensibles con medidas de seguridad compatibles
-                con la normativa.
+                No usamos los datos de sus clientes para entrenar modelos. Los
+                datos se procesan únicamente para el servicio contratado y se
+                mantiene la segregación requerida.
               </p>
-            </article>
+            </div>
+
+            <div className="p-6 bg-white dark:bg-slate-800 rounded-2xl border border-slate-100 dark:border-slate-700 shadow-sm text-left">
+              <div className="flex items-center gap-4 mb-3">
+                <div className="p-2 rounded-lg bg-blue-600 text-white">
+                  <CloudUpload className="h-5 w-5" />
+                </div>
+                <h3 className="text-lg font-semibold text-slate-900 dark:text-slate-100">
+                  Cifrado y cumplimiento
+                </h3>
+              </div>
+              <p className="text-sm text-slate-600 dark:text-slate-300">
+                Ciframos datos en tránsito y en reposo (AES-256). Procesos y
+                auditorías alineadas con SOC 2 Type II e ISO 27001; soporte para
+                requisitos regulatorios adicionales bajo solicitud.
+              </p>
+            </div>
+
+            <div className="p-6 bg-white dark:bg-slate-800 rounded-2xl border border-slate-100 dark:border-slate-700 shadow-sm text-left">
+              <div className="flex items-center gap-4 mb-3">
+                <div className="p-2 rounded-lg bg-blue-600 text-white">
+                  <CloudDownload className="h-5 w-5" />
+                </div>
+                <h3 className="text-lg font-semibold text-slate-900 dark:text-slate-100">
+                  Residencia de datos
+                </h3>
+              </div>
+              <p className="text-sm text-slate-600 dark:text-slate-300">
+                Sus datos almacenados en la región que usted elija. Si se
+                contrata la opción de instancia privada, garantizamos que los
+                datos no salgan de su entorno.
+              </p>
+            </div>
+          </div>
+
+          <div className="text-center">
+            <a
+              href="#"
+              className="inline-flex items-center gap-2 bg-linear-to-br from-blue-600 via-blue-500 to-blue-400 text-white px-6 py-3 rounded-full font-semibold shadow-md hover:opacity-95"
+            >
+              Ver detalles de seguridad
+              <ArrowRight className="h-4 w-4" />
+            </a>
           </div>
         </div>
       </section>
@@ -303,45 +365,6 @@ export default function LandingPage() {
                 </li>
               </ul>
             </div>
-          </div>
-        </div>
-      </section>
-
-      {/* --- TRUST / SECURITY --- */}
-      <section id="security" className="py-20 bg-gray-400">
-        <div className="container mx-auto px-4 text-center">
-          <ShieldCheck className="h-12 w-12 text-blue-600 mx-auto mb-4" />
-          <h2 className="text-3xl font-bold text-slate-900 dark:text-slate-100 mb-4">
-            Seguridad y Privacidad Primero
-          </h2>
-          <p className="text-slate-600 dark:text-slate-300 max-w-2xl mx-auto mb-6">
-            Cumplimos estrictamente con la Ley 25.326 de Protección de Datos
-            Personales.
-          </p>
-
-          <div className="max-w-3xl mx-auto mb-6 text-sm text-slate-600 dark:text-slate-300 space-y-3">
-            <div>
-              <strong>Data Privacy:</strong> &quot;We do not train our models on your client data.&quot; — No entrenamos nuestros modelos con los datos de sus clientes; los datos del cliente se mantienen fuera de cualquier conjunto de entrenamiento público o privado.
-            </div>
-            <div>
-              <strong>Encryption & Compliance:</strong> Ciframos los datos en tránsito y en reposo (AES-256 / 256-bit). Controles y procesos alineados con SOC 2 Type II e ISO 27001; ofrecemos soporte para requisitos regulatorios adicionales (por ejemplo, HIPAA) cuando corresponda.
-            </div>
-            <div>
-              <strong>Data Residency:</strong> Sus datos se almacenan en la región que usted elija y, según la configuración contratada, &quot;Your data never leaves your private cloud instance&quot; — podemos garantizar que los datos no salgan de su instancia privada si así lo requiere.
-            </div>
-          </div>
-
-          <div className="flex flex-wrap justify-center gap-8 opacity-60 grayscale">
-            {/* Placeholder Logos for "Trust" */}
-            <span className="text-xl font-bold text-black">
-              ESTUDIO PÉREZ & ASOC.
-            </span>
-            <span className="text-xl font-bold text-black">
-              GÓMEZ LEGAL TECH
-            </span>
-            <span className="text-xl font-bold text-black">
-              GRUPO JURÍDICO SUR
-            </span>
           </div>
         </div>
       </section>
