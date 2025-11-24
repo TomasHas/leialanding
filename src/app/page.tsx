@@ -41,19 +41,19 @@ export default function LandingPage() {
           <div className="hidden md:flex items-center gap-8 text-sm font-medium text-slate-600 dark:text-slate-300">
             <Link
               href="#features"
-              className="hover:text-orange-400 transition-colors"
+              className="hover:text-blue-400 transition-colors"
             >
               Como funciona
             </Link>
             <Link
               href="#security"
-              className="hover:text-orange-400 transition-colors"
+              className="hover:text-blue-400 transition-colors"
             >
               Seguridad
             </Link>
             <Link
               href="#pricing"
-              className="hover:text-orange-400 transition-colors"
+              className="hover:text-blue-400 transition-colors"
             >
               Precios
             </Link>
@@ -63,13 +63,13 @@ export default function LandingPage() {
             <ThemeToggle />
             <Link
               href="#"
-              className="hidden md:block text-sm font-medium text-slate-400 dark:text-slate-300 hover:text-orange-400"
+              className="hidden md:block text-sm font-medium text-slate-400 dark:text-slate-300 hover:text-blue-400"
             >
               Iniciar Sesión
             </Link>
             <Link
               href="#"
-              className="bg-linear-to-br from-yellow-600 via-orange-400 to-orange-500 dark:shadow-lg dark:shadow-orange-900/25 hover:from-yellow-700 hover:via-orange-500 hover:to-orange-600 text-white px-5 py-2 rounded-full text-sm font-medium transition-all shadow-lg shadow-orange-600/20"
+              className="bg-linear-to-br from-blue-600 via-blue-500 to-blue-400 dark:shadow-lg dark:shadow-blue-900/25 hover:from-blue-700 hover:via-blue-500 hover:to-blue-600 text-white px-5 py-2 rounded-full text-sm font-medium transition-all shadow-lg shadow-blue-600/20"
             >
               Prueba Gratis
             </Link>
@@ -83,7 +83,7 @@ export default function LandingPage() {
         <div className="container mx-auto px-4 text-center relative z-10">
           <h1 className="text-5xl md:text-6xl font-extrabold text-slate-900 dark:text-slate-100 mb-6 tracking-tight leading-tight max-w-4xl mx-auto">
             Escalá tu trabajo 10X. <br />
-            <span className="text-transparent bg-clip-text bg-linear-to-br from-yellow-600 via-orange-400 to-orange-500">
+            <span className="text-transparent bg-clip-text bg-linear-to-br from-blue-600 via-blue-500 to-blue-400">
               Redactá escritos laborales en minutos.
             </span>
           </h1>
@@ -96,7 +96,7 @@ export default function LandingPage() {
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <button className="w-full sm:w-auto flex items-center justify-center gap-2 bg-linear-to-br from-yellow-600 via-orange-400 to-orange-500 hover:from-yellow-700 hover:via-orange-500 hover:to-orange-600 text-white px-8 py-4 rounded-xl text-lg font-bold transition-all shadow-xl shadow-orange-600/20">
+            <button className="w-full sm:w-auto flex items-center justify-center gap-2 bg-linear-to-br from-blue-600 via-blue-500 to-blue-400 hover:from-blue-700 hover:via-blue-500 hover:to-blue-600 text-white px-8 py-4 rounded-xl text-lg font-bold transition-all shadow-xl shadow-blue-600/20">
               Comenzar Ahora <ArrowRight className="h-5 w-5" />
             </button>
             <button className="w-full sm:w-auto flex items-center justify-center gap-2 bg-white dark:bg-slate-800 border border-slate-300 dark:border-slate-700 hover:bg-slate-50 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-200 px-8 py-4 rounded-xl text-lg font-bold transition-all">
@@ -108,7 +108,7 @@ export default function LandingPage() {
           <div className="mt-16 relative mx-auto max-w-5xl rounded-2xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 shadow-2xl overflow-hidden">
             <div className="bg-slate-100 dark:bg-slate-700 border-b border-slate-200 dark:border-slate-700 px-4 py-3 flex items-center gap-2">
               <div className="h-3 w-3 rounded-full bg-red-400"></div>
-              <div className="h-3 w-3 rounded-full bg-amber-400"></div>
+              <div className="h-3 w-3 rounded-full bg-blue-400"></div>
               <div className="h-3 w-3 rounded-full bg-green-400"></div>
             </div>
             <div className="p-8 grid md:grid-cols-2 gap-8 text-left">
@@ -121,13 +121,13 @@ export default function LandingPage() {
                     ...intimo plazo 48hs aclare situación laboral, bajo
                     apercibimiento de considerarme despedido...
                   </p>
-                  <p className="mt-2 text-orange-600 dark:text-orange-300 font-bold">
+                  <p className="mt-2 text-blue-600 dark:text-blue-300 font-bold">
                     TCL Nro: 8392102
                   </p>
                 </div>
               </div>
               <div className="space-y-4">
-                <div className="text-xs font-bold text-orange-600 dark:text-orange-300 uppercase tracking-wider">
+                <div className="text-xs font-bold text-blue-600 dark:text-blue-300 uppercase tracking-wider">
                   Análisis IA
                 </div>
                 <div className="space-y-3">
@@ -174,12 +174,12 @@ export default function LandingPage() {
               </footer>
             </blockquote>
           </div>
-          <span className="text-transparent bg-clip-text bg-linear-to-br from-yellow-600 via-orange-400 to-orange-500 text-5xl font-extrabold ">
+          <span className="text-transparent bg-clip-text bg-linear-to-br from-blue-600 via-blue-500 to-blue-400 text-5xl font-extrabold ">
             Como Funciona
           </span>
           <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 mt-6">
             <article className="p-6 bg-white dark:bg-slate-900 rounded-2xl border border-slate-100 dark:border-slate-700 text-center">
-              <div className="mx-auto mb-3 inline-flex items-center justify-center h-12 w-12 rounded-lg bg-yellow-600 text-white">
+              <div className="mx-auto mb-3 inline-flex items-center justify-center h-12 w-12 rounded-lg bg-blue-600 text-white">
                 <CloudUpload className="h-5 w-5" />
               </div>
               <h4 className="font-semibold mb-2">Carga masiva de documentos</h4>
@@ -190,7 +190,7 @@ export default function LandingPage() {
             </article>
 
             <article className="p-6 bg-white dark:bg-slate-900 rounded-2xl border border-slate-100 dark:border-slate-700 text-center">
-              <div className="mx-auto mb-3 inline-flex items-center justify-center h-12 w-12 rounded-lg bg-orange-600 text-white">
+              <div className="mx-auto mb-3 inline-flex items-center justify-center h-12 w-12 rounded-lg bg-blue-600 text-white">
                 <SearchCheck className="h-5 w-5" />
               </div>
               <h4 className="font-semibold mb-2">Análisis y detección</h4>
@@ -201,7 +201,7 @@ export default function LandingPage() {
             </article>
 
             <article className="p-6 bg-white dark:bg-slate-900 rounded-2xl border border-slate-100 dark:border-slate-700 text-center">
-              <div className="mx-auto mb-3 inline-flex items-center justify-center h-12 w-12 rounded-lg bg-yellow-700 text-white">
+              <div className="mx-auto mb-3 inline-flex items-center justify-center h-12 w-12 rounded-lg bg-blue-700 text-white">
                 <FileText className="h-5 w-5" />
               </div>
               <h4 className="font-semibold mb-2">Generación de escritos</h4>
@@ -212,7 +212,7 @@ export default function LandingPage() {
             </article>
 
             <article className="p-6 bg-white dark:bg-slate-900 rounded-2xl border border-slate-100 dark:border-slate-700 text-center">
-              <div className="mx-auto mb-3 inline-flex items-center justify-center h-12 w-12 rounded-lg bg-amber-500 text-white">
+              <div className="mx-auto mb-3 inline-flex items-center justify-center h-12 w-12 rounded-lg bg-blue-500 text-white">
                 <Calculator className="h-5 w-5" />
               </div>
               <h4 className="font-semibold mb-2">Cálculos y liquidaciones</h4>
@@ -310,7 +310,7 @@ export default function LandingPage() {
       {/* --- TRUST / SECURITY --- */}
       <section id="security" className="py-20 bg-gray-400">
         <div className="container mx-auto px-4 text-center">
-          <ShieldCheck className="h-12 w-12 text-orange-600 mx-auto mb-4" />
+          <ShieldCheck className="h-12 w-12 text-blue-600 mx-auto mb-4" />
           <h2 className="text-3xl font-bold text-slate-900 dark:text-slate-100 mb-4">
             Seguridad y Privacidad Primero
           </h2>
@@ -337,25 +337,25 @@ export default function LandingPage() {
       {/* --- CTA SECTION --- */}
       <section className="py-24 bg-white dark:bg-slate-900">
         <div className="container mx-auto px-4">
-          <div className="bg-linear-to-br from-yellow-600 via-orange-400 to-orange-500 rounded-3xl p-12 md:p-20 text-center md:text-left relative overflow-hidden">
+          <div className="bg-linear-to-br from-blue-600 via-blue-500 to-blue-400 rounded-3xl p-12 md:p-20 text-center md:text-left relative overflow-hidden">
             {/* Abstract decorative circles */}
-            <div className="absolute top-0 right-0 -mr-20 -mt-20 w-96 h-96 bg-linear-to-br from-yellow-600 via-orange-400 to-orange-600 rounded-full opacity-50 blur-3xl"></div>
-            <div className="absolute bottom-0 left-0 -ml-20 -mb-20 w-72 h-72 bg-linear-to-br from-orange-600 via-yellow-500 to-yellow-600 rounded-full opacity-50 blur-3xl"></div>
+            <div className="absolute top-0 right-0 -mr-20 -mt-20 w-96 h-96 bg-linear-to-br from-blue-600 via-blue-500 to-blue-600 rounded-full opacity-50 blur-3xl"></div>
+            <div className="absolute bottom-0 left-0 -ml-20 -mb-20 w-72 h-72 bg-linear-to-br from-blue-600 via-blue-500 to-blue-600 rounded-full opacity-50 blur-3xl"></div>
 
             <div className="relative z-10 grid md:grid-cols-2 gap-10 items-center">
               <div>
                 <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
                   ¿Listo para modernizar su práctica legal?
                 </h2>
-                <p className="text-orange-100 text-lg mb-8">
+                <p className="text-blue-100 text-lg mb-8">
                   Únase a más de 500 abogados en Argentina que ya usan LEIA para
                   optimiziar su tiempo.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4">
-                  <button className="bg-white dark:bg-slate-800 text-orange-600 dark:text-orange-300 px-8 py-4 rounded-xl font-bold hover:bg-orange-50 dark:hover:bg-slate-700 transition-colors shadow-lg">
+                  <button className="bg-white dark:bg-slate-800 text-blue-600 dark:text-blue-300 px-8 py-4 rounded-xl font-bold hover:bg-blue-50 dark:hover:bg-slate-700 transition-colors shadow-lg">
                     Empezar Prueba Gratis
                   </button>
-                  <button className="bg-linear-to-br from-orange-800 via-yellow-700 to-yellow-800 text-white border border-orange-600 px-8 py-4 rounded-xl font-bold hover:bg-orange-900 transition-colors">
+                  <button className="bg-linear-to-br from-blue-800 via-blue-700 to-blue-900 text-white border border-blue-600 px-8 py-4 rounded-xl font-bold hover:bg-blue-900 transition-colors">
                     Agendar Demo
                   </button>
                 </div>
@@ -367,7 +367,7 @@ export default function LandingPage() {
                   <p className="text-slate-600">{`> Fallo plenario "Tulosai" detectado.`}</p>
                   <p>{`> Calculando indemnización tope...`}</p>
                   <p className="text-slate-600">{`> Liquidación lista. Generando PDF...`}</p>
-                  <div className="mt-4 h-2 w-full bg-linear-to-br from-yellow-900/50 via-orange-700/50 to-orange-900/50 rounded-full overflow-hidden">
+                  <div className="mt-4 h-2 w-full bg-linear-to-br from-blue-900/50 via-blue-700/50 to-blue-900/50 rounded-full overflow-hidden">
                     <div className="h-full bg-green-400 w-3/4"></div>
                   </div>
                 </div>
@@ -393,7 +393,7 @@ export default function LandingPage() {
           <div className="grid md:grid-cols-3 gap-8">
             {/* Ezequiel Vazquez */}
             <div className="p-6 bg-slate-50 dark:bg-slate-800 rounded-2xl border border-slate-100 dark:border-slate-700 text-center h-full flex flex-col">
-              <div className="relative mx-auto h-20 w-20 rounded-full bg-yellow-600 text-white flex items-center justify-center text-xl font-bold mb-4 overflow-hidden">
+              <div className="relative mx-auto h-20 w-20 rounded-full bg-blue-600 text-white flex items-center justify-center text-xl font-bold mb-4 overflow-hidden">
                 <Image
                   src="/ezequile.jpg"
                   alt="EV"
@@ -416,7 +416,7 @@ export default function LandingPage() {
                   href="https://www.linkedin.com/in/revazquez/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center justify-center px-3 py-2 rounded-md text-sm font-medium text-yellow-600 hover:underline"
+                  className="inline-flex items-center justify-center px-3 py-2 rounded-md text-sm font-medium text-blue-600 hover:underline"
                 >
                   Ver LinkedIn
                 </a>
@@ -424,7 +424,7 @@ export default function LandingPage() {
             </div>
             {/* Francisco Peretti */}
             <div className="p-6 bg-slate-50 dark:bg-slate-800 rounded-2xl border border-slate-100 dark:border-slate-700 text-center h-full flex flex-col">
-              <div className="relative mx-auto h-20 w-20 rounded-full bg-orange-600 text-white flex items-center justify-center text-xl font-bold mb-4 overflow-hidden">
+              <div className="relative mx-auto h-20 w-20 rounded-full bg-blue-600 text-white flex items-center justify-center text-xl font-bold mb-4 overflow-hidden">
                 <Image
                   src="/pancho.jpg"
                   alt="FP"
@@ -448,7 +448,7 @@ export default function LandingPage() {
                   href="https://www.linkedin.com/in/francisco-peretti/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center justify-center px-3 py-2 rounded-md text-sm font-medium text-orange-600 hover:underline"
+                  className="inline-flex items-center justify-center px-3 py-2 rounded-md text-sm font-medium text-blue-600 hover:underline"
                 >
                   Ver LinkedIn
                 </a>
@@ -456,7 +456,7 @@ export default function LandingPage() {
             </div>
             {/*  Alina Serra */}
             <div className="p-6 bg-slate-50 dark:bg-slate-800 rounded-2xl border border-slate-100 dark:border-slate-700 text-center h-full flex flex-col">
-              <div className="relative mx-auto h-20 w-20 rounded-full bg-yellow-700 text-white flex items-center justify-center text-xl font-bold mb-4 overflow-hidden">
+              <div className="relative mx-auto h-20 w-20 rounded-full bg-blue-700 text-white flex items-center justify-center text-xl font-bold mb-4 overflow-hidden">
                 <Image
                   src="/alina.jpg"
                   alt="AS"
@@ -480,7 +480,7 @@ export default function LandingPage() {
                   href="https://www.linkedin.com/in/alina-serra-97495b21b/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center justify-center px-3 py-2 rounded-md text-sm font-medium text-yellow-700 hover:underline"
+                  className="inline-flex items-center justify-center px-3 py-2 rounded-md text-sm font-medium text-blue-700 hover:underline"
                 >
                   Ver LinkedIn
                 </a>
@@ -514,7 +514,7 @@ export default function LandingPage() {
                 href="https://www.redalyc.org/journal/5602/560279956011/html/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-sm font-medium text-orange-600 hover:underline"
+                className="text-sm font-medium text-blue-600 hover:underline"
               >
                 Leer artículo →
               </a>
@@ -533,7 +533,7 @@ export default function LandingPage() {
                 href="https://ciencialatina.org/index.php/cienciala/article/view/14314"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-sm font-medium text-orange-600 hover:underline"
+                className="text-sm font-medium text-blue-600 hover:underline"
               >
                 Leer artículo →
               </a>
@@ -552,7 +552,7 @@ export default function LandingPage() {
                 href="https://dialnet.unirioja.es/descarga/articulo/9848636.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-sm font-medium text-orange-600 hover:underline"
+                className="text-sm font-medium text-blue-600 hover:underline"
               >
                 Descargar PDF →
               </a>
@@ -571,7 +571,7 @@ export default function LandingPage() {
                 href="https://polodelconocimiento.com/ojs/index.php/es/article/view/10165"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-sm font-medium text-orange-600 hover:underline"
+                className="text-sm font-medium text-blue-600 hover:underline"
               >
                 Leer artículo →
               </a>
@@ -591,7 +591,7 @@ export default function LandingPage() {
                 href="https://repositorio.uchile.cl/handle/2250/202550"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-sm font-medium text-orange-600 hover:underline"
+                className="text-sm font-medium text-blue-600 hover:underline"
               >
                 Leer tesis →
               </a>
@@ -604,7 +604,7 @@ export default function LandingPage() {
           <div className="grid md:grid-cols-4 gap-8 mb-12">
             <div>
               <div className="flex items-center gap-2 mb-4">
-                <div className="p-1 rounded-md bg-linear-to-br from-yellow-600 via-orange-400 to-orange-500">
+                <div className="p-1 rounded-md bg-linear-to-br from-blue-600 via-blue-500 to-blue-400">
                   <Scale className="h-4 w-4 text-white" />
                 </div>
                 <span className="text-lg font-bold text-slate-900 dark:text-slate-100">
@@ -621,22 +621,22 @@ export default function LandingPage() {
               <h4 className="font-bold text-slate-900 mb-4">Producto</h4>
               <ul className="space-y-2 text-sm text-slate-600 dark:text-slate-300">
                 <li>
-                  <a href="#" className="hover:text-orange-600">
+                  <a href="#" className="hover:text-blue-600">
                     Calculadora LCT
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-orange-600">
+                  <a href="#" className="hover:text-blue-600">
                     Análisis de Telegramas
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-orange-600">
+                  <a href="#" className="hover:text-blue-600">
                     Jurisprudencia
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-orange-600">
+                  <a href="#" className="hover:text-blue-600">
                     Precios
                   </a>
                 </li>
@@ -647,17 +647,17 @@ export default function LandingPage() {
               <h4 className="font-bold text-slate-900 mb-4">Recursos</h4>
               <ul className="space-y-2 text-sm text-slate-600 dark:text-slate-300">
                 <li>
-                  <a href="#" className="hover:text-orange-600">
+                  <a href="#" className="hover:text-blue-600">
                     Blog de Novedades
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-orange-600">
+                  <a href="#" className="hover:text-blue-600">
                     Guía de Multas Ley 24.013
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-orange-600">
+                  <a href="#" className="hover:text-blue-600">
                     Actas CNAT
                   </a>
                 </li>
@@ -668,17 +668,17 @@ export default function LandingPage() {
               <h4 className="font-bold text-slate-900 mb-4">Legal</h4>
               <ul className="space-y-2 text-sm text-slate-600 dark:text-slate-300">
                 <li>
-                  <a href="#" className="hover:text-orange-600">
+                  <a href="#" className="hover:text-blue-600">
                     Términos y Condiciones
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-orange-600">
+                  <a href="#" className="hover:text-blue-600">
                     Política de Privacidad
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-orange-600">
+                  <a href="#" className="hover:text-blue-600">
                     Contacto
                   </a>
                 </li>
